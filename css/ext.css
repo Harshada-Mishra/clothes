@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.diamond{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 15px;
+}
+.first{
+    text-align: center;
+    margin-left: 5px;
+}
+.btn{
+    width: 120px;
+    padding: 10px;
+    border: solid gainsboro 2px;
+    /* padding: 20px; */
+    background-color: aquamarine;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: lightblue;
+}
+.second{
+    margin-right: 5px;
+}
+.image{
+    width: 550px;
+}
+.image:hover{
+    
+}
